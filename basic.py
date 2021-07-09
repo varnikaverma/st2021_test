@@ -1,4 +1,4 @@
-x=10
-
-print(x)
-print('Again  for test for jenkins...')
+import joblib
+# load model
+m = joblib.load('Marks.pkl')
+m.predict([[2]])
