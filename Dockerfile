@@ -7,4 +7,4 @@ RUN pip3 install scikit-learn
 
 COPY marks.pkl /
 COPY basic.py /
-CMD python3 basic.py
+CMD python3 /basic.py
